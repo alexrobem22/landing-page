@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*organiza a caixa como nada passar da borda e nada entra em outra caixa*/
+}
+body{
+    background: url("../img/imagem6.jfif") no-repeat top center fixed;/*bota uma imagen no fundo*/
+    background-size: cover;/*nao se replicar*/
+    font-family: 'Arial', Times, serif; /*fonte do sate*/
+    
+    
+    
+}
+header .container{
+
+    display: flex;/*alinha os elementos em tela na mesma linha*/
+    flex-direction: row;/*isso e uma propriedade de fool se eu nao declara ele vai vim do mesmo jeito*/
+    align-items: center;/*deixa os item centralizado*/
+    justify-content: space-between;
+    
+    
+}
+header .logo{
+
+    margin-left: 40px;/*mover para esqueda o logo netflix*/
+    color: rgb(143, 245, 10);
+    font-family: 'arial black', times;/*formato da letra*/
+    font-size: 35px;/*tamanho da font*/
+
+}
+header nav a{
+    text-decoration: none;
+    color: rgb(8, 250, 68);
+    margin-right: 10px;/*margin a direita da espaço */
+}
+header nav a:hover{/*aqui e nosso ancora esse efeito faz quando o mause passar por cima do nosso link ele muda de cor*/
+    color: rgb(235, 22, 22);
+}
+main .usuario{
+
+    background-color:  rgba(0, 0,0, 0.8);
+    position: absolute;/*oculpa o espaco so do elementos pega todo espaco da div e deixa como um quadrado no tamanho dos elementos*/
+    top: 50%;/*da uma distancia da outra divi*/
+    left: 50%;/*deixa no meio da tela*/
+    transform: translate(-50%, -50%);/*deixa coretamente no meio da pagina o primeiro numero eixo [ X ] e o segundo numerio e o eixo [ y ]*/
+    padding: 50px;/*e a distancia dos elemento da borda */
+    border-radius: 15px;/*aredondar as borda*/
+    
+    color: brown;
+    
+}
+input{
+    
+    padding: 10px;/*da distancia dos elementos*/ 
+    border: none;/*tira a borda*/
+    outline: none ;/*quando aperta na caixa no input fica tipo uma linha aoredor da caixa ai essa funcao tira */
+    
+
+}
+.botao{
+    background-color: red;/*cor de fundo*/
+    border: none;/*tira a linha que fica aoredor */
+    border-radius: 15px;/*deixa com borda nas pontas*/
+    padding: 10px;/*da uma distancia entre os elementos*/
+    width: 100%;/*largura*/
+    color: white;
+    font-size: 15px;/*font da letra*/
+}
+.botao:hover{/*aqui quando eu passar o mause no botao ele muda de cor*/
+    background-color: rgb(152, 173, 34);
+    cursor: pointer; /*mudar o curso do mause*/
+}
+.h2{
+    margin: 40px;
+    margin-left: 50px;
+    
+  
+}
+

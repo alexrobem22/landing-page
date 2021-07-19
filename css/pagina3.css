@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*organiza a caixa como nada passar da borda e nada entra em outra caixa*/
+}
+body{
+    background: url("../img/plano-de-fundo.jfif") no-repeat top center fixed;/*bota uma imagen no fundo*/
+    background-size: cover;/*nao se replicar*/
+   
+}
+
+.conteiner{
+
+    display: flex;
+    justify-content:center;/*justifica os contener ao centro*/
+    flex-direction: row;/*fica um do lado do outro*/
+    flex-wrap: wrap;/*quando a div chega no limite da tela ela vai para baixo*/
+
+}
+
+.logo{
+    display: flex;
+    justify-content:center;/*justifica os contener ao centro*/
+    flex-direction: row;/*fica um do lado do outro*/
+    flex-wrap: wrap;/*quando a div chega no limite da tela ela vai para baixo*/
+    margin-top: 10px;
+    font-size: 30px;
+
+
+}
+.regras{
+    margin: 20px;
+
+}
+.negrito{
+
+    display: flex;
+    justify-content:center;/*justifica os contener ao centro*/
+    flex-direction: row;/*fica um do lado do outro*/
+    flex-wrap: wrap;/*quando a div chega no limite da tela ela vai para baixo*/
+
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 10px 10px;
+
+}
+.promocao{
+    display: flex;
+    justify-content:center;/*justifica os contener ao centro*/
+    flex-direction: row;/*fica um do lado do outro*/
+    flex-wrap: wrap;/*quando a div chega no limite da tela ela vai para baixo*/
+    margin: 40px 0px;
+}
+
+.card{
+
+    
+    width: 250px; /*largura*/
+    height: 250px;/*altura*/
+    background-color: rgb(255, 255, 255);
+
+    margin: 20px;
+
+}
+.conteiner .img{
+
+    z-index: 1;
+    margin-bottom: 20px;
+
+}
+.sair{
+
+    background-color: red;/*cor de fundo*/
+    border: none;/*tira a linha que fica aoredor */
+    border-radius: 15px;/*deixa com borda nas pontas*/
+    padding: 10px;/*da uma distancia entre os elementos*/
+    width: 60px;/*largura*/
+    height: 40px;
+    color: white;
+    font-size: 15px;/*font da letra*/
+    margin-left: 30px;
+   
+    
+
+}
+.sair:hover{/*aqui quando eu passar o mause no botao ele muda de cor*/
+    background-color: rgb(152, 173, 34);
+    cursor: pointer; /*mudar o curso do mause*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

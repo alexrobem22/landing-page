@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;/*organiza a caixa como nada passar da borda e nada entra em outra caixa*/
+}body{
+  
+    background: url("../img/imagem10.jfif") no-repeat top center fixed;/*bota uma imagen no fundo*/
+    
+    background-size: cover;/*nao se replicar*/
+    font-family: "comfortaa",sans-serif; /*fonte do site*/
+       
+} .cadastro{
+
+    width: 320px;/*largura*/
+    height: 420px;/*altura*/
+    border: 2px solid #000;/*borda */
+    border-radius: 80px 0px 80px 0px;/*aredondo a parte de cima esquerda e a parte de baixo direita*/
+    color: #fff;
+    background-color: rgba(0, 0, 5, 0.8);/*um preto trasparente*/
+    top: 50%;
+    left: 50%;
+    position: absolute;/*com o top e left essa funcao deixa no centro da tela*/
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 68px 28px ;/*da uma distancia entre os elementos*/
+
+} h1 {
+
+    margin: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    letter-spacing: 10px;/*separa a distancia entre as letras*/
+    text-transform: uppercase;/*deixar a letra maiuscula*/
+    text-align: center; /*alinha no centro*/
+    
+
+}.cadastro input{
+
+    width: 100%;/*largura*/
+    
+} .cadastro input[type="text"]{
+
+    border: none;/*tira a linha que fica aoredor*/
+    border-bottom: 1px solid white;
+    background: transparent;/*dexa onde digita os nome transparente*/
+    outline: none;/*tira a linha da caixa do input*/
+    height: 30px;/*altura entre os item*/
+    color: white;
+    font-size: 15px; /*tamano da fonte da letra dentro do input*/
+
+} .botao{
+    width: 200px;
+    border: none;/*tira a linha que fica aoredor*/
+    outline: none;/*tira a linha da caixa do input*/
+    height: 35px;/*altura entre os item*/
+    color: #000;/*cor da letra*/
+    background: #fff;/*cor de fundo do input*/
+    border-radius: 20px;/*a borda do botao*/
+    transition: 0.2s;
+    
+
+} .botao:hover{
+
+    cursor: pointer;
+    background: #ff4d4d;
+    transition: 0.2s;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
